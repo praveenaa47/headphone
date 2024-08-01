@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eeeeee;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.main{
+    background-image: url('https://surreyschoolsone.ca/cms-data/gallery/blog/literacyresources/podcast-background-knowledge/podcast.jpg');
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1{
+    margin-left: 80px;
+    padding-top: 200px;
+}
+
+.div1 h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+.div1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.div1 div{
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    width: fit-content;
+    text-align: center;
+
+}
+
+.div1 div:hover{
+    background-color: rgb(215, 213, 213);
+    transition: 1.2ms;
+    cursor: pointer;
+}
+
+#div{
+
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    background-color: rgb(246, 203, 95);
+
+}
+#phones{
+    position: absolute;
+    background-color: #fac769;
+    border-radius: 100px;
+    padding: .6rem;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 1;
+    font-size: 20px;
+    
+    
+
+} 
+
+
+
+
+
+.col img{
+    display: flex;
+    justify-content:flex-start;
+    
+
+
+}
+
+#id3{
+    display: flex;
+    
+
+}
+#more{
+    margin-left: 200px;
+   
+}
+
+
+
+#btn1{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+#btn1:hover{
+    opacity: 1;
+    background-color: rgb(162, 160, 160);
+}
+
+
+
+.card-count{
+    display: flex;
+     margin-left: 5%;
+    /* margin-right: 15%; */ 
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.card-box{
+    position: relative;
+    margin-right:70px ;
+}
+
+.count{
+    position: absolute;
+    top:0 ;
+    color: #fac769;
+    font-size: 60px;
+    font-weight: 800;
+    z-index: -1;
+}
+
+.title{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    position: inherit;
+    top:30px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.img{
+    margin-left: 20%;
+}
+.icon{
+margin-right: 15px;
+margin-top: 20px;
+justify-content: space-around;
+
+}
